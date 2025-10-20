@@ -1,0 +1,14 @@
+{
+  "@@locale": "de",
+  "appTitle": "Meine ToDo-Liste",
+  "addTodoButton": "ToDo hinzufügen",
+  "newTodoTitle": "Neue ToDo hinzufügen",
+  "hintTodoTitle": "ToDo-Titel",
+  "buttonCancel": "Abbrechen",
+  "buttonAdd": "Hinzufügen",
+  "emptyListMessage": "Füge deine erste Aufgabe hinzu!",
+  "startingAppText": "Starte App...",
+  "anErrorOccured": "Ein Fehler ist aufgetreten: ",
+  "showLastData": "Anzeige der letzten bekannten Daten.",
+  "unknownState": "Unbekannter Zustand"
+}

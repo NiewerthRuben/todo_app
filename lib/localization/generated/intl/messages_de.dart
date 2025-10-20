@@ -1,5 +1,5 @@
 // DO NOT EDIT. This is code generated via package:intl/generate_localized.dart
-// This is a library that provides messages for a en locale. All the
+// This is a library that provides messages for a de locale. All the
 // messages from the main program should be duplicated here with the same
 // function name.
 
@@ -18,26 +18,28 @@ final messages = new MessageLookup();
 typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
 
 class MessageLookup extends MessageLookupByLibrary {
-  String get localeName => 'en';
+  String get localeName => 'de';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-    "addTodoButton": MessageLookupByLibrary.simpleMessage("Add ToDo"),
+    "addTodoButton": MessageLookupByLibrary.simpleMessage("ToDo hinzufügen"),
     "anErrorOccured": MessageLookupByLibrary.simpleMessage(
-      "An Error Occured: ",
+      "Ein Fehler ist aufgetreten: ",
     ),
-    "appTitle": MessageLookupByLibrary.simpleMessage("My ToDo List"),
-    "buttonAdd": MessageLookupByLibrary.simpleMessage("Add"),
-    "buttonCancel": MessageLookupByLibrary.simpleMessage("Cancel"),
+    "appTitle": MessageLookupByLibrary.simpleMessage("Meine ToDo-Liste"),
+    "buttonAdd": MessageLookupByLibrary.simpleMessage("Hinzufügen"),
+    "buttonCancel": MessageLookupByLibrary.simpleMessage("Abbrechen"),
     "emptyListMessage": MessageLookupByLibrary.simpleMessage(
-      "Add your first task!",
+      "Füge deine erste Aufgabe hinzu!",
     ),
-    "hintTodoTitle": MessageLookupByLibrary.simpleMessage("ToDo Title"),
-    "newTodoTitle": MessageLookupByLibrary.simpleMessage("Add New ToDo"),
+    "hintTodoTitle": MessageLookupByLibrary.simpleMessage("ToDo-Titel"),
+    "newTodoTitle": MessageLookupByLibrary.simpleMessage(
+      "Neue ToDo hinzufügen",
+    ),
     "showLastData": MessageLookupByLibrary.simpleMessage(
-      "Display of the last known data.",
+      "Anzeige der letzten bekannten Daten.",
     ),
-    "startingAppText": MessageLookupByLibrary.simpleMessage("Starting App..."),
-    "unknownState": MessageLookupByLibrary.simpleMessage("unknown state"),
+    "startingAppText": MessageLookupByLibrary.simpleMessage("Starte App..."),
+    "unknownState": MessageLookupByLibrary.simpleMessage("Unbekannter Zustand"),
   };
 }

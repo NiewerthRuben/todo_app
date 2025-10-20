@@ -54,13 +54,106 @@ class Localize {
   static Localize? maybeOf(BuildContext context) {
     return Localizations.of<Localize>(context, Localize);
   }
+
+  /// `My ToDo List`
+  String get appTitle {
+    return Intl.message('My ToDo List', name: 'appTitle', desc: '', args: []);
+  }
+
+  /// `Add ToDo`
+  String get addTodoButton {
+    return Intl.message('Add ToDo', name: 'addTodoButton', desc: '', args: []);
+  }
+
+  /// `Add New ToDo`
+  String get newTodoTitle {
+    return Intl.message(
+      'Add New ToDo',
+      name: 'newTodoTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `ToDo Title`
+  String get hintTodoTitle {
+    return Intl.message(
+      'ToDo Title',
+      name: 'hintTodoTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cancel`
+  String get buttonCancel {
+    return Intl.message('Cancel', name: 'buttonCancel', desc: '', args: []);
+  }
+
+  /// `Add`
+  String get buttonAdd {
+    return Intl.message('Add', name: 'buttonAdd', desc: '', args: []);
+  }
+
+  /// `Add your first task!`
+  String get emptyListMessage {
+    return Intl.message(
+      'Add your first task!',
+      name: 'emptyListMessage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Starting App...`
+  String get startingAppText {
+    return Intl.message(
+      'Starting App...',
+      name: 'startingAppText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `An Error Occured: `
+  String get anErrorOccured {
+    return Intl.message(
+      'An Error Occured: ',
+      name: 'anErrorOccured',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Display of the last known data.`
+  String get showLastData {
+    return Intl.message(
+      'Display of the last known data.',
+      name: 'showLastData',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `unknown state`
+  String get unknownState {
+    return Intl.message(
+      'unknown state',
+      name: 'unknownState',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<Localize> {
   const AppLocalizationDelegate();
 
   List<Locale> get supportedLocales {
-    return const <Locale>[Locale.fromSubtags(languageCode: 'en')];
+    return const <Locale>[
+      Locale.fromSubtags(languageCode: 'en'),
+      Locale.fromSubtags(languageCode: 'de'),
+    ];
   }
 
   @override
